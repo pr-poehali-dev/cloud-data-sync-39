@@ -5,6 +5,9 @@ export interface Section {
   title: string
   subtitle?: ReactNode
   content?: string
+  image?: string
+  imageCaption?: string
+  facts?: string[]
   showButton?: boolean
   buttonText?: string
 }
